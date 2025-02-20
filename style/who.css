@@ -1,0 +1,51 @@
+.who{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.who-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    height: 50vh;
+    width: 25vw;
+    color: aliceblue;
+    border-radius: 1rem;
+    margin-right: 40rem;
+
+}
+
+.who-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin:1rem;
+    margin-top: 3rem;
+    
+}
+
+.socials-container{
+    display: flex;
+    flex-direction: column;
+    right: 0%;
+    position: absolute;
+
+}
+
+.social-card{
+    padding: 4rem;
+    background-color: #171717;
+    margin-bottom: 1.5rem;
+    width: 40vw;
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+}
+
+.lastfm{
+    background-color: #D1170E;
+}
