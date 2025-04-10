@@ -3,46 +3,33 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'K2D';
+    overflow-x: hidden;
 }
 
 .start{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-}
-
-.text-start{
     display: flex;
     flex-direction: column;
-
-
+    justify-content: center;
+    align-items: center;
 }
 
-.title-start{
-    font-size: 8rem;
+.start h1{
+    font-size: 9rem;
     font-weight: 100;
-    display: flex;
-    flex-direction: column;
+    font-style: italic;
     margin: 0;
 }
 
-.title-text{
-    font-size: 1.5rem;
+.start h3{
     font-style: italic;
+    font-size: 2rem;
 }
 
-
-header{
+.text-holder{
     display: flex;
     flex-direction: column;
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    background-color: #171717;
-    padding: 2.5rem;
-    border-radius: 0.5rem;
-    margin: 1rem;
+
+    justify-content: center;
 }
