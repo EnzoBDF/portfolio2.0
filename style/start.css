@@ -4,8 +4,9 @@ body {
     box-sizing: border-box;
     font-family: 'K2D';
     overflow-x: hidden;
-    background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.2) 3px);
-    animation: scanline 5s linear infinite;
+    background-image: url(../assets/ghostrunner_2937953b.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .start{

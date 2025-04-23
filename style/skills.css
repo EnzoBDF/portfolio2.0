@@ -3,8 +3,6 @@
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-image: url('../assets/cyberpunk-2077-25-new-night-city-images_xf13.jpg');
-    background-size: cover;
     align-items: center;
     justify-content: center;
 }

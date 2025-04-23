@@ -1,13 +1,12 @@
 .banner {
     position: relative;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.2) 3px);
     background-color: #892be28c;
     padding: 50px;
     border-radius: 10px;
     text-align: left;
     clip-path: polygon(10% 0%, 100% 0%, 100% 90%, 90% 100%, 0% 100%, 0% 10%);
-   background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.2) 3px);
     animation: scanline 5s linear infinite, glitch 1s infinite;
- /* Aplicando opacidade apenas ao banner */
 }
 
 
@@ -50,10 +49,6 @@ h2 {
 p {
     font-size: 1rem;
     opacity: 0.8;
-}
-
-.start{
-    background-image: url(../assets/ghostrunner_2937953b.jpg);
 }
 
 @keyframes glitch{
