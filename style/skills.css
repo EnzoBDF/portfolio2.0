@@ -6,124 +6,38 @@
     align-items: center;
     justify-content: center;
 }
-.parent {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 20px;
-    background-color: #892be29d;
-    padding: 5rem;
+
+
+.skillDisplay{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #892be26b;
+    box-shadow: 5px 5px 1px;
     clip-path: polygon(10% 0%, 100% 0%, 100% 90%, 90% 100%, 0% 100%, 0% 10%);
     background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.2) 3px);
-    animation: scanline 5s linear infinite;
-}
-    
-.div1 {
-    grid-column: span 2 / span 2;
-    grid-row: span 6 / span 6;
-}
-
-.div2 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 3;
-}
-
-.div4 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 4;
-}
-
-.div5 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 5;
-}
-
-.div8 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 6;
-}
-
-.div10 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 3;
-    grid-row-start: 3;
-}
-
-.div11 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 4;
-    grid-row-start: 3;
-}
-
-.div12 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 5;
-    grid-row-start: 3;
-}
-
-.div13 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 6;
-    grid-row-start: 3;
-}
-
-.div14 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 3;
-    grid-row-start: 5;
-}
-
-.div15 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 4;
-    grid-row-start: 5;
-}
-
-.div16 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 5;
-    grid-row-start: 5;
-}
-
-.div17 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 6;
-    grid-row-start: 5;
-}
-
-
-.skillSquare{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    background-color: #0a0a0a7c;
-    border-radius: 1rem;
-}
-
-.skillSquare i{
-    color: #00FFFF;
-    font-size: 6rem;
-    padding: 0;
-    margin: 0;
-}
-
-.skillShowSquare{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    background-color: #0a0a0a7c;
-    border-radius: 1rem;
-}
-
-.skillShowSquare img{
-    width: 12rem;
 }
 
 .skillShow{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.skillGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.gridBlock{
+    padding: 1rem;
+    background-color: #892be244;
+}
+
+.gridBlock i{
+    font-size: 3rem;
 }
