@@ -1,0 +1,45 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h2{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.contactCard{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    clip-path: polygon(8% 0%, 92% 0%, 100% 10%, 100% 90%, 92% 100%, 8% 100%, 0% 90%, 0% 10%);
+    background-color: #8A2BE2;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.2) 4px)
+}
+
+.contactIcons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.contactIcon{
+    padding: 0.5rem;
+    font-size: 3rem;
+    color: white;
+    
+   
+}
+
+.emailIcon{
+    background-color: #D92323;
+    clip-path: polygon(8% 0%, 100% 0%, 100% 80%, 92% 100%, 0% 100%, 0% 20%);
+    padding: 2rem;
+}
+.whatsappIcon{
+    background-color: #00FF88;
+    clip-path: polygon(8% 0%, 100% 0%, 100% 80%, 92% 100%, 0% 100%, 0% 20%);
+    padding: 2rem;
+}

@@ -38,7 +38,7 @@
 .gridBlock{
     padding: 2rem;
     background-color: #0a0a0a63;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     box-shadow: inset 0 0 20px #8A2BE2;
     filter: drop-shadow(5px 5px 0px #333333ef);
     transition: 1s;
@@ -87,12 +87,13 @@
 
 .skillShowBlock{
     padding: 3rem;
+    margin-bottom: 1rem;
 }
 
 .skillShowBlock i{
     font-size: 5rem;
     background-color: #0a0a0a63;
-    padding: 3rem;
+    padding: 4rem;
     color: #00FFFF;
     border-radius: 1rem;
     animation:  glitch infinite 1s;
