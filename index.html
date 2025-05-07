@@ -19,18 +19,20 @@
 
 <body>
     <header>
-
         <div class="logoHeader">
             <p>Enzo <br> Dorneles_</p>
         </div>
-        <ul class="headerli">
-            <li>Sobre</li>
-            <li>Skills</li>
-            <li>Projetos</li>
-            <li>Contate-me</li>
-
-        </ul>
-
+    
+        <button class="menu-toggle">☰</button>
+    
+        <nav class="navHeader">
+            <ul class="headerli">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contate-me</a></li>
+            </ul>
+        </nav>
     </header>
     <section class="start">
         <div class="banner">
@@ -41,7 +43,7 @@
             <p>Fullstack Developer_</p>
         </div>
     </section>
-    <section class="info">
+    <section class="info" id="sobre">
         <div class="sectioner">
             <div class="about">
                 <h3 class="abouttitle">Sobre Mim_</h3>
@@ -99,7 +101,7 @@
             </div>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="skillDisplay">
             <div class="skillShow">
                 <div class="skillShowBlock">
@@ -150,7 +152,7 @@
         </div>
 
     </section>
-    <section class="projects">
+    <section class="projects" id="projetos">
         <div class="projectsWrapper">
             <div class="leftColumn">
                 <div class="projectCard">
@@ -214,7 +216,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contato">
         <h2>Entre <br>em <br>contato<span class="flickerUnderscore">_</span></h2>
         <div class="contactCard">
             <div class="contactIcons">
@@ -233,7 +235,7 @@
             </div>
         </div>
     </section>
-
+<script type="module" src="./script/script.js"></script>
 </body>
 
 </html>

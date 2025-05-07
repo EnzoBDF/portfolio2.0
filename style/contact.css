@@ -2,19 +2,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100vw;
+    margin-bottom: 4rem;
 }
 
 .contact h2{
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .contactCard{
     display: flex;
     flex-direction: column;
     padding: 3rem;
+    margin-left: 25rem;
     clip-path: polygon(8% 0%, 92% 0%, 100% 10%, 100% 90%, 92% 100%, 8% 100%, 0% 90%, 0% 10%);
-    background-color: #8A2BE2;
+    background-color: #892be296;
     background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.2) 4px)
 }
 
@@ -34,12 +37,35 @@
 }
 
 .emailIcon{
-    background-color: #D92323;
+    background-color: #d92323b0;
     clip-path: polygon(8% 0%, 100% 0%, 100% 80%, 92% 100%, 0% 100%, 0% 20%);
-    padding: 2rem;
+    padding: 1rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.4rem;
 }
 .whatsappIcon{
-    background-color: #00FF88;
+    background-color: #00ff88bd;
     clip-path: polygon(8% 0%, 100% 0%, 100% 80%, 92% 100%, 0% 100%, 0% 20%);
-    padding: 2rem;
+    padding: 1rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.4rem;
+}
+
+.discordIcon{
+    background-color: #7289dab0;
+    clip-path: polygon(8% 0%, 100% 0%, 100% 80%, 92% 100%, 0% 100%, 0% 20%);
+    padding: 1rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.4rem;
+}
+
+.emailWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #0000006e;
+    margin-top: 2rem;
+    clip-path: polygon(8% 0%, 92% 0%, 100% 10%, 100% 90%, 92% 100%, 8% 100%, 0% 90%, 0% 10%);
+
 }
