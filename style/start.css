@@ -4,9 +4,10 @@ body {
     box-sizing: border-box;
     font-family: 'K2D';
     overflow-x: hidden;
-    background-image: url(../assets/ghostrunner_2937953b.jpg);
+    background-image: url(../assets/fundo.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .start{

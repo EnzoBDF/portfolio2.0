@@ -10,8 +10,8 @@
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+   /*  grid-template-columns: repeat(5, 1fr); */
+/*     grid-template-rows: repeat(6, 1fr); */
     gap: 16px;
 }
     
@@ -19,7 +19,7 @@
     grid-column: span 2 / span 2;
     grid-row: span 6 / span 6;
     padding: 2rem;
-    width: 18rem;
+    width: 20rem;
     background-color: #892be26b;
     display: flex;
     flex-direction: column;
@@ -36,17 +36,31 @@
     grid-row: span 2 / span 2;
     grid-column-start: 3;
     grid-row-start: 5;
-    padding: 5rem;
+    padding: 2rem;
     background-color: #892be26b;
     clip-path: polygon(10% 0%, 100% 0%, 100% 80%, 90% 100%, 0% 100%, 0% 20%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: left;
+    width: 70%;
 
+}
+
+.projectTitle6{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 1.5rem;
+    color: white;
 }
 
 .div7 {
     grid-row: span 2 / span 2;
     grid-column-start: 3;
     grid-row-start: 1;
-    padding: 5rem;
+
     background-color: #892be26b;
     display: flex;
     flex-direction: column;
@@ -55,6 +69,14 @@
     justify-items: center;
     text-align: center;
     clip-path: polygon(20% 0%, 100% 0%, 100% 80%, 80% 100%, 0% 100%, 0% 20%);
+    width: fit-content;
+    padding: 0.4rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
        
 }
 
@@ -62,7 +84,6 @@
     grid-row: span 2 / span 2;
     grid-column-start: 3;
     grid-row-start: 3;
-    padding: 5rem;
     background-color: #892be26b;
     display: flex;
     flex-direction: column;
@@ -71,6 +92,14 @@
     justify-items: center;
     text-align: center;
     clip-path: polygon(20% 0%, 100% 0%, 100% 80%, 80% 100%, 0% 100%, 0% 20%);
+    width: fit-content;
+    padding: 0.4rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
 
 }
 
@@ -103,6 +132,18 @@
     justify-items: center;
 }
 
+.projectTechs6{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 10%;
+    gap: 2rem;
+    margin-left: 3rem;
+    align-content: center;
+    justify-items: left;
+    justify-items: center;
+}
+
 .techDisplay i{
     font-size: 1.6rem;
     padding: 0;
@@ -114,9 +155,32 @@
     color: #00FFFF;
     box-shadow: 7px 0px 5px #333;
     clip-path: polygon(20% 0%, 100% 0%, 100% 80%, 80% 100%, 0% 100%, 0% 20%);
+
 }
+
+.projectTechsSquare{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: fit-content;
+    gap: 2rem;
+    align-content: center;
+    justify-items: left;
+}
+
+
+
 
 .techDisplay{
     padding: 0;
     
+}
+
+.projectTitle h3{
+    color: white;
+}
+
+.projectTitleSquare{
+    color: white;
+    padding: 1rem;
 }
